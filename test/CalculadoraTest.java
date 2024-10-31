@@ -47,7 +47,8 @@ class CalculadoraTest {
         ByteArrayInputStream in = new //ByteArrayInputStream: Simula la entrada de datos, poniendo tú lo que se va ha introducir
                 ByteArrayInputStream("s\n".getBytes());
         System.setIn(in); //setIn: Hace que introduzca lo que se ha puesto en ByteArrayInputStream en vez del teclado
-        Assertions.assertEquals(1, calculadora.escogerValor()); //Assertions: Comprueba el valor esperado que se le ponga con el valor que te da el programa
+        Assertions.assertEquals(1, calculadora.escogerValor()); //Assertions: Comprueba que es igual el valor esperado
+                                                                        // que se le ponga con el valor que te da el programa
 
     }
 
