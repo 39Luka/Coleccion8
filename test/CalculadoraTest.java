@@ -24,12 +24,12 @@ class CalculadoraTest {
     }
 
     @Test
-    void dividir() {
+    void dividirConValoresValidos() {
         Assertions.assertEquals("2.0", calculadora.dividir(10,5));
 
     }
     @Test
-    void dividir0() {
+    void dividirConValoresNoValidos() {
         Assertions.assertEquals("Error: División por cero", calculadora.dividir(7,0));
 
     }
