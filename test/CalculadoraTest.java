@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
 
-class calculadoraTest {
+class CalculadoraTest {
 
     @Test
     void sumar() {
