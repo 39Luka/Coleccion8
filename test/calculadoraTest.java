@@ -50,8 +50,8 @@ class calculadoraTest {
         Assertions.assertEquals(1, calculadora.escogerValor());
 
     }
-
-
-
+    //ByteArrayInputStream: Simula la entrada de datos, poniendo tú lo que se va ha introducir
+    //setIn: Hace que introduzca lo que se ha puesto en ByteArrayInputStream en vez del teclado
+    //Assertions: Comprueba el valor esperado que se le ponga con el valor que te da el programa
 
 }
